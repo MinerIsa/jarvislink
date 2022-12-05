@@ -28,6 +28,8 @@ import AppStore from '../../assets/images/app-store.png';
 
 import emailjs, { send } from '@emailjs/browser';
 
+import logodark from '../../assets/images/logo-dark.png';
+
 const Section = () => {
   const [succeMsg, setsucceMsg] = useState(false);
 
@@ -107,6 +109,9 @@ const Section = () => {
         <Container>
           <Row className="justify-content-center align-items-center">
             <Col className="text-center">
+              <div id="MobileLogo" className="logo justify-content-center">
+                <img src={logodark} height="24rem" alt="" />
+              </div>
               <div className="title-heading">
                 <h1
                   className="heading mb-3"

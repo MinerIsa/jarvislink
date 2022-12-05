@@ -58,9 +58,9 @@ class NavbarPage extends Component {
       <React.Fragment>
         <header id="topnav" className="defaultscroll sticky">
           <Container>
-            <div>
+            <div id="JLogo">
               <Link className="logo" to="#">
-                <img src={logodark} height="24" alt="" />
+                <img src={logodark} height="24rem" alt="" />
               </Link>
             </div>
             <ul className="buy-button list-inline mb-0">

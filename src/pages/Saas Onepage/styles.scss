@@ -6,3 +6,15 @@
   background-color: #3a7cc8;
   color: #fff;
 }
+
+@media (max-width: 425px) {
+  #JLogo {
+    display: none;
+  }
+}
+
+@media (min-width: 425px) {
+  #MobileLogo {
+    display: none;
+  }
+}
