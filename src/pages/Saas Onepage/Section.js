@@ -113,7 +113,7 @@ const Section = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  <span className="text-primary">Advanced</span> controls.
+                  <span className="text-primary">Advanced</span> controls. Hi!
                   <br />
                   <span className="text-primary">
                     Simple
