@@ -110,12 +110,12 @@ const ContactUs = () => {
               className="mt-4 pt-2"
             >
               <Card
-                className="rounded shadow border-0"
+                className="rounded shadow border-0 bg-light"
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
                 <CardBody>
-                  <div className="custom-form bg-white">
+                  <div className="custom-form bg-light">
                     <div id="message"></div>
                     <Alert
                       color="info"
