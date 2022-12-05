@@ -18,22 +18,6 @@ import Index from './pages/Saas Onepage/index.js';
 // Include Routes
 import routes from './routes/allRoutes';
 
-function withLayout(WrappedComponent, hasDarkTopBar) {
-  // ...and returns another component...
-  /* eslint-disable react/display-name */
-  return class extends React.Component {
-    render() {
-      return (
-        <Layout hasDarkTopBar={hasDarkTopBar}>
-          {/* <Section /> */}
-          <Index />
-          {/* <WrappedComponent></WrappedComponent> */}
-        </Layout>
-      );
-    }
-  };
-}
-
 class App extends Component {
   Loader = () => {
     return (
@@ -49,31 +33,11 @@ class App extends Component {
   };
   render() {
     return (
-      <React.Fragment>
-        <Router>
-          <Suspense fallback={this.Loader()}>
-            <Switch>
-              {routes.map((route, idx) =>
-                route.isWithoutLayout ? (
-                  <Route
-                    path={route.path}
-                    exact={route.exact}
-                    component={route.component}
-                    key={idx}
-                  />
-                ) : (
-                  <Route
-                    path={route.path}
-                    exact
-                    component={withLayout(route.component, route.isTopbarDark)}
-                    key={idx}
-                  />
-                ),
-              )}
-            </Switch>
-          </Suspense>
-        </Router>
-      </React.Fragment>
+      <Layout>
+        {/* <Section /> */}
+        <Index />
+        {/* <WrappedComponent></WrappedComponent> */}
+      </Layout>
     );
   }
 }

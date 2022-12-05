@@ -11,7 +11,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.Fragment>
     <BrowserRouter>
-      <App />
+      {/* <App /> */}
+      <Layout>
+        <Index />
+      </Layout>
     </BrowserRouter>
   </React.Fragment>,
 );

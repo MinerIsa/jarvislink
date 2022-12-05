@@ -964,7 +964,7 @@ const routes = [
     exact: true,
     component: () => <Redirect to="/" />,
   },
-  // { path: '/index', component: Main, isTopbarDark: true },
+  { path: '/index', component: Main, isTopbarDark: true },
 ];
 
 export default routes;
