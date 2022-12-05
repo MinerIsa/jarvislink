@@ -1,7 +1,6 @@
 {
   "name": "jarvislink",
   "version": "2.0.0",
-  "homepage": "https://MinerIsa.github.io",
   "private": false,
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^34.2.0",
@@ -59,9 +58,7 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --write \"**/*.{js,jsx,json,md,html,css,less,scss}\"",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
