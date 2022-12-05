@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MinerIsa/jarvislink.git/static/css/main.dd3798fc.chunk.css",
-    "main.js": "/MinerIsa/jarvislink.git/static/js/main.23bd6506.chunk.js",
-    "main.js.map": "/MinerIsa/jarvislink.git/static/js/main.23bd6506.chunk.js.map",
+    "main.js": "/MinerIsa/jarvislink.git/static/js/main.92d6b915.chunk.js",
+    "main.js.map": "/MinerIsa/jarvislink.git/static/js/main.92d6b915.chunk.js.map",
     "runtime-main.js": "/MinerIsa/jarvislink.git/static/js/runtime-main.4012242d.js",
     "runtime-main.js.map": "/MinerIsa/jarvislink.git/static/js/runtime-main.4012242d.js.map",
     "static/css/2.f439fabc.chunk.css": "/MinerIsa/jarvislink.git/static/css/2.f439fabc.chunk.css",
-    "static/js/2.c209237d.chunk.js": "/MinerIsa/jarvislink.git/static/js/2.c209237d.chunk.js",
-    "static/js/2.c209237d.chunk.js.map": "/MinerIsa/jarvislink.git/static/js/2.c209237d.chunk.js.map",
+    "static/js/2.6da8a38a.chunk.js": "/MinerIsa/jarvislink.git/static/js/2.6da8a38a.chunk.js",
+    "static/js/2.6da8a38a.chunk.js.map": "/MinerIsa/jarvislink.git/static/js/2.6da8a38a.chunk.js.map",
     "static/js/3.34d7ee04.chunk.js": "/MinerIsa/jarvislink.git/static/js/3.34d7ee04.chunk.js",
     "static/js/3.34d7ee04.chunk.js.map": "/MinerIsa/jarvislink.git/static/js/3.34d7ee04.chunk.js.map",
     "static/js/4.c2539060.chunk.js": "/MinerIsa/jarvislink.git/static/js/4.c2539060.chunk.js",
@@ -17,7 +17,7 @@
     "index.html": "/MinerIsa/jarvislink.git/index.html",
     "static/css/2.f439fabc.chunk.css.map": "/MinerIsa/jarvislink.git/static/css/2.f439fabc.chunk.css.map",
     "static/css/main.dd3798fc.chunk.css.map": "/MinerIsa/jarvislink.git/static/css/main.dd3798fc.chunk.css.map",
-    "static/js/2.c209237d.chunk.js.LICENSE.txt": "/MinerIsa/jarvislink.git/static/js/2.c209237d.chunk.js.LICENSE.txt",
+    "static/js/2.6da8a38a.chunk.js.LICENSE.txt": "/MinerIsa/jarvislink.git/static/js/2.6da8a38a.chunk.js.LICENSE.txt",
     "static/media/01.015e9c63.jpg": "/MinerIsa/jarvislink.git/static/media/01.015e9c63.jpg",
     "static/media/01.21190d42.jpg": "/MinerIsa/jarvislink.git/static/media/01.21190d42.jpg",
     "static/media/01.3be58610.jpg": "/MinerIsa/jarvislink.git/static/media/01.3be58610.jpg",
@@ -604,8 +604,8 @@
   "entrypoints": [
     "static/js/runtime-main.4012242d.js",
     "static/css/2.f439fabc.chunk.css",
-    "static/js/2.c209237d.chunk.js",
+    "static/js/2.6da8a38a.chunk.js",
     "static/css/main.dd3798fc.chunk.css",
-    "static/js/main.23bd6506.chunk.js"
+    "static/js/main.92d6b915.chunk.js"
   ]
 }
