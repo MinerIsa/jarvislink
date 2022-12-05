@@ -7,7 +7,7 @@ import BackToTop from './backToTop';
 // Layout Components
 const Topbar = React.lazy(() => import('./Topbar'));
 const NavbarPage = React.lazy(() =>
-  import('../../pages/Saas Onepage/NavbarPage'),
+  import('../../pages/JarvisLink/NavbarPage'),
 );
 const Footer = React.lazy(() => import('./Footer'));
 const FooterWithoutMenuLightSocialOnly = React.lazy(() =>

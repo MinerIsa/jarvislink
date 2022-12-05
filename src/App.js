@@ -11,7 +11,7 @@ import {
 import './assets/css/materialdesignicons.min.css';
 import './Apps.scss';
 
-import Index from './pages/Saas Onepage/index.js';
+import Index from './pages/JarvisLink/index.js';
 
 // import "./assets/css/colors/default.css";
 

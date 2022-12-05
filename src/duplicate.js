@@ -16,7 +16,7 @@ import Index from './pages/Saas Onepage/index.js';
 // import "./assets/css/colors/default.css";
 
 // Include Routes
-import routes from './routes/allRoutes';
+// import routes from './routes/allRoutes';
 
 function withLayout(WrappedComponent, hasDarkTopBar) {
   // ...and returns another component...

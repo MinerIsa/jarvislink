@@ -1,0 +1,32 @@
+.primary-text {
+  color: #3a7cc8;
+}
+
+.primary-btn {
+  background-color: #3a7cc8;
+  color: #fff;
+}
+
+@media (max-width: 425px) {
+  #JLogo {
+    display: none;
+  }
+
+  #headlin {
+    padding-bottom: 2rem;
+  }
+
+  #home {
+    padding-top: 6rem;
+  }
+}
+
+@media (min-width: 425px) {
+  #MobileLogo {
+    display: none;
+  }
+
+  #home {
+    padding-top: 10rem;
+  }
+}

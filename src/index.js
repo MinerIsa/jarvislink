@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import Index from './pages/Saas Onepage';
+import Index from './pages/JarvisLink';
 import Layout from './components/Layout';
 // import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from 'react-router-dom';
