@@ -1573,7 +1573,7 @@ const onepageFeaturesData = [
   {
     id: 3,
     icon: 'uil uil-file-search-alt h2 text-primary',
-    title: 'Choose lighitng control profiles for your zones',
+    title: 'Choose lighting control profiles for your zones',
     description:
       'You can pick one of the predefined profiles and apply it to your zone right away. You can also create your own profile.',
   },
