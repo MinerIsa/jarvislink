@@ -17,6 +17,8 @@ import visa from '../../assets/images/payments/visa.png';
 //Import Images
 import logolight from '../../assets/images/logo-light.svg';
 import logodark from '../../assets/images/logo-dark.png';
+import SilvairWhiteLong from '../../assets/images/SilvairWhiteLong.png';
+import JarvisLinkShort from '../../assets/images/JarvisLinkShort.png';
 
 class Footer extends Component {
   constructor(props) {
@@ -89,13 +91,21 @@ class Footer extends Component {
                 >
                   <Row>
                     <Col lg={4} className="col-12 mb-0 mb-md-4 pb-0 pb-md-2">
-                      <Link to="#" className="logo-footer">
-                        <img
-                          src={this.props.isLight ? logodark : logolight}
-                          height="34"
-                          alt=""
-                        />
-                      </Link>
+                      <Row>
+                        <Col sm={12} lg={5}>
+                          <Link to="#home" className="logo-footer">
+                            <img src={JarvisLinkShort} height="34" alt="" />
+                          </Link>
+                        </Col>
+                        <Col>
+                          <a
+                            href="https://silvair.com/"
+                            className="logo-footer"
+                          >
+                            <img src={SilvairWhiteLong} height="34" alt="" />
+                          </a>
+                        </Col>
+                      </Row>
                       <p
                         className={
                           this.props.isLight ? 'mt-4 text-muted' : 'mt-4'

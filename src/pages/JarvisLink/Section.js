@@ -25,6 +25,7 @@ import { useFormik } from 'formik';
 import FeatherIcon from 'feather-icons-react';
 
 import AppStore from '../../assets/images/app-store.png';
+import Silvair from '../../assets/images/Silvair.png';
 
 import emailjs, { send } from '@emailjs/browser';
 
@@ -132,14 +133,28 @@ const Section = () => {
                   Skyrocket your lighting business by offering advanced controls
                   capabilities with JarvisLink.
                 </p>
-                <a href="https://www.apple.com/app-store/">
-                  <img
-                    data-aos="fade-up"
-                    data-aos-duration="1400"
-                    style={{ height: '4em' }}
-                    src={AppStore}
-                  />
-                </a>
+                <Row>
+                  <Col id="app-store-col">
+                    <a href="https://www.apple.com/app-store/">
+                      <img
+                        data-aos="fade-up"
+                        data-aos-duration="1400"
+                        style={{ height: '5em' }}
+                        src={AppStore}
+                      />
+                    </a>
+                  </Col>
+                  <Col id="silvair-col">
+                    <a href="https://silvair.com/">
+                      <img
+                        data-aos="fade-up"
+                        data-aos-duration="1400"
+                        style={{ height: '5em' }}
+                        src={Silvair}
+                      />
+                    </a>
+                  </Col>
+                </Row>
               </div>
             </Col>
             <Col
