@@ -65,7 +65,7 @@ class Process extends Component {
                   data-aos-duration="2200"
                 >
                   <a
-                    href="https://www.jarvislink.com/#/access/login"
+                    href="https://platform.jarvislink.com/#/access/login"
                     className="text-primary p-1 px-2 shadow rounded"
                   >
                     Get Started <i className="uil uil-angle-right-b"></i>
