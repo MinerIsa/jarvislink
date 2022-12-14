@@ -30,7 +30,7 @@ class Footer extends Component {
         // { title: 'Project', link: '#' },
         // { title: 'Careers', link: '#' },
         // { title: 'Blog', link: '#' },
-        { title: 'Login', link: 'https://www.jarvislink.com/#/access/login' },
+        { title: 'Login', link: 'https://platform.jarvislink.com/' },
       ],
       grid2: [
         // { title: 'Terms of Services', link: '#' },

@@ -73,7 +73,7 @@ class NavbarPage extends Component {
               </li>
               <li className="list-inline-item button mb-0">
                 <a
-                  href="https://www.jarvislink.com/#/access/login"
+                  href="https://platform.jarvislink.com/"
                   className="btn btn-primary btn-pills"
                   // onClick={this.toggleRightDrawer}
                   // disabled={this.state.open}
