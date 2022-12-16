@@ -170,9 +170,9 @@ class Footer extends Component {
                         </li>
                       </ul>
                     </Col>
-
+                    
                     <Col
-                      lg={2}
+                      lg={4}
                       md={4}
                       className="col-12 mt-4 mt-sm-0 pt-2 pt-sm-0"
                     >
@@ -202,7 +202,7 @@ class Footer extends Component {
                       </ul>
                     </Col>
 
-                    <Col
+                    {/* <Col
                       lg={3}
                       md={4}
                       className="col-12 mt-4 mt-sm-0 pt-2 pt-sm-0"
@@ -233,10 +233,11 @@ class Footer extends Component {
                           </li>
                         ))}
                       </ul>
-                    </Col>
+                    </Col> */}
+                    
 
                     <Col
-                      lg={3}
+                      lg={4}
                       md={4}
                       className="col-12 mt-4 mt-sm-0 pt-2 pt-sm-0"
                     >
