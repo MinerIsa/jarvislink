@@ -13,6 +13,7 @@ import {
   Row,
   FormFeedback,
   ModalHeader,
+  ModalFooter,
 } from 'reactstrap';
 
 //Import Icons
@@ -156,11 +157,11 @@ const Appointment = () => {
             <h1>Documentation will be updated soon</h1>
           </Container>
         </ModalBody>
-        <ModalHeader className="mx-auto">
+        <ModalFooter className="mx-auto">
           <a onClick={() => setModal(false)} className="text-center">
             Close
           </a>
-        </ModalHeader>
+        </ModalFooter>
       </Modal>
     </React.Fragment>
   );
