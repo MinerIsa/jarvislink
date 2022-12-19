@@ -93,9 +93,9 @@ class Footer extends Component {
                     <Col lg={4} className="col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                       <Row>
                         <Col sm={12} lg={5}>
-                          <Link to="#home" className="logo-footer">
+                          <a href="#home" className="logo-footer">
                             <img src={JarvisLinkShort} height="34" alt="" />
-                          </Link>
+                          </a>
                         </Col>
                         <Col>
                           <a
@@ -170,7 +170,7 @@ class Footer extends Component {
                         </li>
                       </ul>
                     </Col>
-                    
+
                     <Col
                       lg={4}
                       md={4}
@@ -234,7 +234,6 @@ class Footer extends Component {
                         ))}
                       </ul>
                     </Col> */}
-                    
 
                     <Col
                       lg={4}
