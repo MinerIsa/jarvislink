@@ -13,7 +13,7 @@ const Popup = () => {
             to=""
             target="_blank"
             rel="noopener noreferrer"
-            className="text-success h6"
+            className="text-primary h6"
           >
             use of cookies
           </Link>
