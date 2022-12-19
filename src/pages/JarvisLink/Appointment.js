@@ -12,6 +12,7 @@ import {
   ModalBody,
   Row,
   FormFeedback,
+  ModalHeader,
 } from 'reactstrap';
 
 //Import Icons
@@ -82,7 +83,11 @@ const Appointment = () => {
                     Sensors for Indoor and Outdoor Applications.
                   </p>
 
-                  <Link to="#" className="btn btn-pills btn-soft-success mt-4">
+                  <Link
+                    onClick={() => setModal(true)}
+                    to="#"
+                    className="btn btn-pills btn-soft-success mt-4"
+                  >
                     Download PDF
                   </Link>
                 </CardBody>
@@ -123,7 +128,11 @@ const Appointment = () => {
                     with optional gateways.
                   </p>
 
-                  <Link to="#" className="btn btn-pills btn-soft-success mt-4">
+                  <Link
+                    onClick={() => setModal(true)}
+                    to="#"
+                    className="btn btn-pills btn-soft-success mt-4"
+                  >
                     Download PDF
                   </Link>
                 </CardBody>
@@ -143,148 +152,15 @@ const Appointment = () => {
         }}
       >
         <ModalBody className="p-0">
-          <Container fluid className="px-0">
-            <Row className="align-items-center g-0">
-              <Col lg={6} md={5} className="d-none d-md-block">
-                <img src={medical} className="img-fluid" alt="" />
-              </Col>
-
-              <Col lg={6} md={7}>
-                <Form
-                  onSubmit={(e) => {
-                    e.preventDefault();
-                    validation.handleSubmit();
-                    return false;
-                  }}
-                  className="login-form p-4"
-                >
-                  <Row>
-                    <Col lg={12}>
-                      <div className="mb-3">
-                        <Label className="form-label">
-                          Your Email <span className="text-danger">*</span>
-                        </Label>
-                        <div className="form-icon position-relative">
-                          <i>
-                            <FeatherIcon
-                              icon="user"
-                              className="fea icon-sm icons"
-                            />
-                          </i>
-                          <Input
-                            type="email"
-                            className="form-control ps-5"
-                            placeholder="Email"
-                            name="email"
-                            onChange={validation.handleChange}
-                            onBlur={validation.handleBlur}
-                            value={validation.values.email || ''}
-                            invalid={
-                              validation.touched.email &&
-                              validation.errors.email
-                                ? true
-                                : false
-                            }
-                          />
-                          {validation.touched.email &&
-                          validation.errors.email ? (
-                            <FormFeedback type="invalid">
-                              {validation.errors.email}
-                            </FormFeedback>
-                          ) : null}
-                        </div>
-                      </div>
-                    </Col>
-
-                    <Col lg={12}>
-                      <div className="mb-3">
-                        <Label className="form-label">
-                          Password <span className="text-danger">*</span>
-                        </Label>
-                        <div className="form-icon position-relative">
-                          <i>
-                            <FeatherIcon
-                              icon="key"
-                              className="fea icon-sm icons"
-                            />
-                          </i>
-                          <Input
-                            type="password"
-                            className="form-control ps-5"
-                            placeholder="Password"
-                            name="password"
-                            onChange={validation.handleChange}
-                            onBlur={validation.handleBlur}
-                            value={validation.values.password || ''}
-                            invalid={
-                              validation.touched.password &&
-                              validation.errors.password
-                                ? true
-                                : false
-                            }
-                          />
-                          {validation.touched.password &&
-                          validation.errors.password ? (
-                            <FormFeedback type="invalid">
-                              {validation.errors.password}
-                            </FormFeedback>
-                          ) : null}
-                        </div>
-                      </div>
-                    </Col>
-
-                    <Col lg={12}>
-                      <div className="d-flex justify-content-between">
-                        <div className="mb-3">
-                          <div className="form-check">
-                            <Input
-                              type="checkbox"
-                              className="form-check-input"
-                              id="customCheck1"
-                            />
-                            <Label
-                              className="form-check-label"
-                              for="customCheck1"
-                            >
-                              Remember me
-                            </Label>
-                          </div>
-                        </div>
-                        <p className="forgot-pass mb-0">
-                          <Link
-                            to="auth-re-password"
-                            className="text-dark fw-bold"
-                          >
-                            Forgot password ?
-                          </Link>
-                        </p>
-                      </div>
-                    </Col>
-
-                    <Col lg={12} className="mb-0">
-                      <div className="d-grid">
-                        <button className="btn btn-primary btn-block">
-                          Sign in
-                        </button>
-                      </div>
-                    </Col>
-
-                    <Col lg={12} className="text-center">
-                      <p className="mb-0 mt-3">
-                        <small className="text-dark me-2">
-                          Don't have an account ?
-                        </small>{' '}
-                        <Link to="auth-signup" className="text-dark fw-bold">
-                          Sign Up
-                        </Link>
-                      </p>
-                    </Col>
-                  </Row>
-                </Form>
-              </Col>
-            </Row>
+          <Container fluid className="pt-3 text-center">
+            <h1>Documentation will be updated soon</h1>
           </Container>
         </ModalBody>
+        <ModalHeader className="mx-auto">
+          <a onClick={() => setModal(false)} className="text-center">
+            Close
+          </a>
+        </ModalHeader>
       </Modal>
     </React.Fragment>
   );
