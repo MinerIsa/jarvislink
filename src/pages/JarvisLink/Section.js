@@ -135,7 +135,7 @@ const Section = () => {
                 </p>
                 <Row>
                   <Col id="app-store-col">
-                    <a href="https://www.apple.com/app-store/">
+                    <a href="https://apps.apple.com/us/app/jarvis-link/id6444695558">
                       <img
                         data-aos="fade-up"
                         data-aos-duration="1400"
