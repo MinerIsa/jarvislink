@@ -106,13 +106,13 @@ const Appointment = () => {
                     Control zones with hard-wired or wire-free kinetic switches.
                   </p>
 
-                  <Link
-                    to="#"
+                  <a
+                    href="https://drive.google.com/file/d/1p8YOpXmO51aBueNCZpZx7Y0jPiPzdt5w/view?usp=share_link"
                     className="btn btn-pills btn-soft-success mt-4"
-                    onClick={() => setModal(true)}
+                    // onClick={() => setModal(true)}
                   >
                     Download PDF
-                  </Link>
+                  </a>
                 </CardBody>
               </Card>
             </Col>
