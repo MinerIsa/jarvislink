@@ -107,7 +107,7 @@ const Appointment = () => {
                   </p>
 
                   <a
-                    href="https://drive.google.com/file/d/1p8YOpXmO51aBueNCZpZx7Y0jPiPzdt5w/view?usp=share_link"
+                    href="https://drive.google.com/file/d/16ZNE1U3eT-2P5jsn1qVKja6h90hkU8Qw/view?usp=share_link"
                     className="btn btn-pills btn-soft-success mt-4"
                     // onClick={() => setModal(true)}
                   >
@@ -129,13 +129,12 @@ const Appointment = () => {
                     with optional gateways.
                   </p>
 
-                  <Link
-                    onClick={() => setModal(true)}
-                    to="#"
+                  <a
+                    href="https://drive.google.com/file/d/1fceX1DcQiLev7EXbxML88pn_eZ4JtueK/view?usp=share_link"
                     className="btn btn-pills btn-soft-success mt-4"
                   >
                     Download PDF
-                  </Link>
+                  </a>
                 </CardBody>
               </Card>
             </Col>
