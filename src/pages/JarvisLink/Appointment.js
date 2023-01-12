@@ -62,13 +62,13 @@ const Appointment = () => {
                     Information about system features and capabilities.
                   </p>
 
-                  <Link
-                    to="#"
+                  <animate
+                    href="https://drive.google.com/file/d/1NktYdGQMA4dwCPp7SQt591C2GaiquZ_M/view?usp=share_link"
                     className="btn btn-pills btn-soft-success mt-4"
-                    onClick={() => setModal(true)}
+                    // onClick={() => setModal(true)}
                   >
                     Download PDF
-                  </Link>
+                  </a>
                 </CardBody>
               </Card>
             </Col>
