@@ -84,13 +84,13 @@ const Appointment = () => {
                     Sensors for Indoor and Outdoor Applications.
                   </p>
 
-                  <Link
-                    onClick={() => setModal(true)}
-                    to="#"
+                  <a
+                    // onClick={() => setModal(true)}
+                    href="https://drive.google.com/file/d/1b7YUAK6gY1grveIREMDIHwCWCPqLg3b5/view?usp=share_link"
                     className="btn btn-pills btn-soft-success mt-4"
                   >
                     Download PDF
-                  </Link>
+                  </a>
                 </CardBody>
               </Card>
             </Col>
