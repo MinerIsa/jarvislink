@@ -168,7 +168,7 @@ const Section = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <CardBody>
+                <CardBody style={{boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px'}}>
                   <div className="pb-3">
                     <h4 className="card-title fw-bold">
                       Get a Free Jarvis Link Training
@@ -313,7 +313,7 @@ const Section = () => {
                               id="submit"
                               name="send"
                               className="submitBnt btn btn-primary"
-                              value="Sign Up"
+                              value="Sign Up For Jarvis Link Training"
                             />
                             <div id="simple-msg"></div>
                           </div>
