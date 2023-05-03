@@ -52,7 +52,7 @@ const Appointment = () => {
           <SectionTitle title="Documentation" />
           <Row>
             <Col lg={3} md={6} xs={12}>
-              <Card className=" features fea-primary bg-white rounded p-4 position-relative overflow-hidden border-0">
+              <Card style={{boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px'}} className=" features fea-primary bg-white rounded p-4 position-relative overflow-hidden border-0">
                 <span className="h1 icon2 text-primary">
                   <i className="uil uil-newspaper"></i>
                 </span>
@@ -73,7 +73,7 @@ const Appointment = () => {
               </Card>
             </Col>
             <Col lg={3} md={6} xs={12} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
-              <Card className="features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
+              <Card style={{boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px'}} className="features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
                 <span className="h1 icon2 text-primary">
                   <i className="uil uil-rss"></i>
                 </span>
@@ -96,7 +96,7 @@ const Appointment = () => {
             </Col>
 
             <Col lg={3} md={6} xs={12}>
-              <Card className=" features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
+              <Card style={{boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px'}} className=" features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
                 <span className="h1 icon2 text-primary">
                   <i className="uil uil-sun"></i>
                 </span>
@@ -118,7 +118,7 @@ const Appointment = () => {
             </Col>
 
             <Col lg={3} md={6} xs={12} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
-              <Card className="features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
+              <Card style={{boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px'}} className="features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
                 <span className="h1 icon2 text-primary">
                   <i className="uil uil-link"></i>
                 </span>
