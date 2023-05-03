@@ -113,6 +113,7 @@ const ContactUs = () => {
                 className="rounded shadow border-0 bg-light"
                 data-aos="fade-up"
                 data-aos-duration="1000"
+style={{boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px'}}
               >
                 <CardBody>
                   <div className="custom-form bg-light">
