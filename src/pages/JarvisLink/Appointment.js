@@ -107,7 +107,7 @@ const Appointment = () => {
                   </p>
 
                   <a
-                    href="https://drive.google.com/file/d/16ZNE1U3eT-2P5jsn1qVKja6h90hkU8Qw/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1C4oOYqMWJAJQDyl5osRZzUOCbS7N53dZ/view?usp=sharing"
                     className="btn btn-pills btn-soft-success mt-4"
                     // onClick={() => setModal(true)}
                   >
