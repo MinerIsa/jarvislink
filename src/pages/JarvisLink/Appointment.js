@@ -86,7 +86,7 @@ const Appointment = () => {
 
                   <a
                     // onClick={() => setModal(true)}
-                    href="https://drive.google.com/file/d/1b7YUAK6gY1grveIREMDIHwCWCPqLg3b5/view?usp=share_link"
+                    href="https://cdn.shopify.com/s/files/1/0406/9018/8439/files/v1.2_Jarvis_Link_Sensor_Components_Sheet.pdf_4_1.pdf?v=1697221104"
                     className="btn btn-pills btn-soft-success mt-4"
                   >
                     Download PDF
