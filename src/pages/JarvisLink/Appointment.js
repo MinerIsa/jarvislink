@@ -130,7 +130,7 @@ const Appointment = () => {
                   </p>
 
                   <a
-                    href="https://drive.google.com/file/d/1fceX1DcQiLev7EXbxML88pn_eZ4JtueK/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1j4gFTdoPxyVFvMGFYeqU6t9Meg75RdQd/view?usp=drive_link"
                     className="btn btn-pills btn-soft-success mt-4"
                   >
                     Download PDF
