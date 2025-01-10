@@ -119,7 +119,7 @@ const Section = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  <span className="text-primary">Advanced</span> control.
+                  <span className="text-primary">Advanced</span> controls.
                   <br />
                   <span className="text-primary">
                     Simple
@@ -168,7 +168,11 @@ const Section = () => {
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <CardBody style={{boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px'}}>
+                <CardBody
+                  style={{
+                    boxShadow: 'rgba(0, 0, 0, 0.25) 0px 25px 50px -12px',
+                  }}
+                >
                   <div className="pb-3">
                     <h4 className="card-title fw-bold">
                       Get a Free Jarvis Link Training
