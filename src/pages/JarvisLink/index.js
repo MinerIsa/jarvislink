@@ -17,6 +17,7 @@ import ContactUs from './ContactUs';
 import GoogleMap from './GoogleMap';
 import Popup from '../../components/Layout/popup';
 import Appointment from './Appointment';
+import Videos from './Videos';
 
 class SaasOnepage extends Component {
   constructor(props, context) {
@@ -122,6 +123,9 @@ class SaasOnepage extends Component {
         <Shape />
         <section id="documentation">
           <Appointment />
+        </section>
+        <section id="videos">
+          <Videos />
         </section>
 
         {/* block container */}
