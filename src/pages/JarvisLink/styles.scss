@@ -1,3 +1,7 @@
+/* ---------------------------------
+   Global Classes
+---------------------------------- */
+
 .primary-text {
   color: #3a7cc8;
 }
@@ -6,6 +10,10 @@
   background-color: #3a7cc8;
   color: #fff;
 }
+
+/* ---------------------------------
+   Existing Media Queries
+---------------------------------- */
 
 @media (max-width: 425px) {
   #JLogo {
@@ -39,9 +47,13 @@
   }
 }
 
-/* Scope everything inside .videos-section to avoid affecting other elements */
+/* ---------------------------------
+   Videos Section (Scoped Styles)
+---------------------------------- */
 .videos-section {
-  /* Headline Section */
+  /* ------------------------------
+     Headline Section
+  ------------------------------ */
   .headline-container {
     margin: 0 auto;
     width: 87.5vw;
@@ -51,7 +63,10 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
-    background-color: black !important;
+    background-color: black !important; /* Force black background */
+
+    /* Make sure there's enough space for the black bg to be visible */
+    min-height: 200px;
   }
 
   .headline-container.visible {
@@ -72,6 +87,9 @@
     letter-spacing: -0.015em;
   }
 
+  /* ------------------------------
+     Lifted Section (Card Wrapper)
+  ------------------------------ */
   .lifted-section {
     position: relative;
     width: 100%;
@@ -86,6 +104,9 @@
     z-index: 1;
   }
 
+  /* ------------------------------
+     Horizontal Card Scroller
+  ------------------------------ */
   .card-container {
     display: flex;
     overflow-x: auto;
@@ -103,11 +124,12 @@
     }
   }
 
+  /* ------------------------------
+     Individual Cards
+  ------------------------------ */
   .card {
     flex: 0 0 auto;
-    width: calc(
-      (65vh * 9) / 16
-    ); /* 16:9 ratio based on 80% of viewport height */
+    width: calc((65vh * 9) / 16); /* 16:9 ratio based on 65% viewport height */
     height: 60vh;
     border-radius: 20px;
     position: relative;
@@ -164,6 +186,7 @@
     }
   }
 
+  /* Light variant if needed */
   .card-light {
     .card-content {
       color: black;
@@ -179,6 +202,7 @@
     }
   }
 
+  /* Floating circle button on each card */
   .card-button {
     position: absolute;
     bottom: 15px;
@@ -233,7 +257,9 @@
     }
   }
 
-  /* Modal Backdrop */
+  /* ------------------------------
+     Modal
+  ------------------------------ */
   .modal-backdrop {
     position: fixed;
     top: 0;
@@ -247,7 +273,6 @@
     justify-content: center;
   }
 
-  /* The Modal Body */
   .modal-body {
     background-color: #fff;
     width: 80%;
@@ -255,6 +280,8 @@
     border-radius: 12px;
     padding: 2rem;
     position: relative;
+    max-height: 90vh; /* Allow scrolling if content is tall */
+    overflow-y: auto;
   }
 
   .modal-close {
@@ -307,6 +334,63 @@
       li {
         margin-bottom: 0.75rem;
       }
+    }
+  }
+
+  /* --------------------------------
+     ADDITIONAL RESPONSIVE TWEAKS
+     (Adjust as needed)
+  -------------------------------- */
+
+  /* Tablet Breakpoint */
+  @media (max-width: 768px) {
+    .headline {
+      font-size: 32px;
+    }
+
+    .card-container {
+      padding-left: 1rem;
+      gap: 1rem;
+    }
+
+    .card {
+      width: 80vw; /* More flexible for smaller screens */
+      height: 50vh;
+    }
+
+    .modal-body {
+      width: 90%;
+      padding: 1rem;
+    }
+  }
+
+  /* Mobile Breakpoint */
+  @media (max-width: 425px) {
+    /* Headline adjusts again for small phones */
+    .headline {
+      font-size: 24px;
+    }
+
+    /* Trim padding & gaps further */
+    .card-container {
+      padding-left: 1rem;
+      gap: 0.75rem;
+    }
+
+    /* Scale cards for small screens */
+    .card {
+      width: 85vw;
+      height: 45vh;
+    }
+
+    /* Ensure modal content fits well on phones */
+    .modal-body {
+      width: 95%;
+      padding: 1rem;
+    }
+
+    .modal-close {
+      font-size: 2rem; /* Easy to tap */
     }
   }
 }
