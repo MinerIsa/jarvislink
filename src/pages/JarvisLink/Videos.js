@@ -2,75 +2,7 @@ import React, { useState } from 'react';
 import './styles.scss'; // Make sure this path matches your setup
 
 const videoCards = [
-  {
-    id: 1,
-    imageUrl:
-      'https://cdn.shopify.com/s/files/1/0406/9018/8439/files/Roboto_7.png?v=1723842990',
-    title: 'Introduction',
-    subtitle: 'What are Networked Lighting Controls?',
-    videoUrl: 'https://www.youtube.com/embed/bOQO6Jqiu-o?si=6nbOuZLo6R4858GU',
-    description: (
-      <>
-        <h3>Overview</h3>
-        <p>
-          Network lighting controls let all your fixtures communicate. This
-          allows grouping, motion sensing, dimming, and more, providing energy
-          savings and flexibility.
-        </p>
-        <h3>Advantages of Networked Lighting Controls</h3>
-        <ul>
-          <li>
-            <strong>Energy Savings:</strong> Additional 50-70% savings after LED
-            conversion.
-          </li>
-          <li>
-            <strong>Wireless Implementation:</strong> No rewiring needed,
-            reducing install costs.
-          </li>
-          <li>
-            <strong>Multiple Control Strategies:</strong> Grouping, dimming,
-            scheduling, and more.
-          </li>
-          <li>
-            <strong>Incentives:</strong> Extra utility incentives for upgrading
-            to networked controls.
-          </li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    id: 2,
-    imageUrl:
-      'https://cdn.shopify.com/s/files/1/0406/9018/8439/files/Roboto.png?v=1723840108',
-    title: 'Success Guide',
-    subtitle: 'How to have smooth NLC projects.',
-    videoUrl: 'https://www.youtube.com/embed/M4_Q7a8D0do?si=RlY2z8wrKlZZo5dy',
-    description: (
-      <>
-        <h3>Success Guide</h3>
-        <p>How to plan a project using Network Lighting Controls:</p>
-        <ul>
-          <li>
-            <strong>Understand the Software:</strong> Know what Jarvis Link can
-            do and what hardware is needed.
-          </li>
-          <li>
-            <strong>Talk to Your Customers:</strong> Get their needs so you can
-            implement the system correctly.
-          </li>
-          <li>
-            <strong>Group Your Fixtures:</strong> Plan groups based on feedback
-            and desired behavior.
-          </li>
-          <li>
-            <strong>Training:</strong> We can train you or commission the system
-            for you.
-          </li>
-        </ul>
-      </>
-    ),
-  },
+
   {
     id: 3,
     imageUrl:
