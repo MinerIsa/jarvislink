@@ -9,7 +9,7 @@ const videoCards = [
       'https://cdn.shopify.com/s/files/1/0406/9018/8439/files/Roboto_6.png?v=1723842913',
     title: 'Software',
     subtitle: 'Changing Settings in Jarvis Link',
-    videoUrl: 'https://youtu.be/ujB_YQO3XWA',
+    videoUrl: 'https://www.youtube.com/watch?v=ujB_YQO3XWA',
     description: (
       <>
         <h3>Changing Settings in Jarvis Link.</h3>
