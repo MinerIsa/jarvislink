@@ -4,6 +4,39 @@ import './styles.scss'; // Make sure this path matches your setup
 const videoCards = [
 
   {
+    id: 2,
+    imageUrl:
+      'https://cdn.shopify.com/s/files/1/0406/9018/8439/files/Roboto_6.png?v=1723842913',
+    title: 'Software',
+    subtitle: 'Changing Settings in Jarvis Link',
+    videoUrl: 'https://youtu.be/ujB_YQO3XWA',
+    description: (
+      <>
+        <h3>Changing Settings in Jarvis Link.</h3>
+        <p>
+          Jarvis Link is a network lighting control system that manages fixtures
+          within a facility. It supports zones, dimming, and automated
+          responses.
+        </p>
+        <h3>Core Capabilities</h3>
+        <ul>
+          <li>
+            <strong>Lighting Zones:</strong> Group multiple fixtures for
+            centralized control.
+          </li>
+          <li>
+            <strong>Brightness and Dimming:</strong> Adjust lights for energy
+            efficiency.
+          </li>
+          <li>
+            <strong>Automated Responses:</strong> Set lights to respond to
+            occupancy or inactivity.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
     id: 3,
     imageUrl:
       'https://cdn.shopify.com/s/files/1/0406/9018/8439/files/Roboto_6.png?v=1723842913',
