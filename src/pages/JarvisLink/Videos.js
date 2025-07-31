@@ -14,9 +14,7 @@ const videoCards = [
       <>
         <h3>Changing Settings in Jarvis Link.</h3>
         <p>
-          Jarvis Link is a network lighting control system that manages fixtures
-          within a facility. It supports zones, dimming, and automated
-          responses.
+          In this video, Arturo gives a walkthrough on how to change settings in Jarvis Link. 
         </p>
         <h3>Core Capabilities</h3>
         <ul>
