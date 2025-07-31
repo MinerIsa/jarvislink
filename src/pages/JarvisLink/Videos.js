@@ -6,7 +6,7 @@ const videoCards = [
   {
     id: 2,
     imageUrl:
-      'https://cdn.shopify.com/s/files/1/0406/9018/8439/files/Roboto_6.png?v=1723842913',
+      'https://cdn.shopify.com/s/files/1/0406/9018/8439/files/Roboto_1_27d630da-4534-4527-a437-72b35873c1ea.png?v=1753995920',
     title: 'Software',
     subtitle: 'Changing Settings in Jarvis Link',
     videoUrl: 'https://www.youtube.com/embed/ujB_YQO3XWA?si=j7EFDYqc1BUdMhxL',
