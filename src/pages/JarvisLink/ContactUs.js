@@ -350,7 +350,7 @@ const ContactUs = () => {
                       <div className="content overflow-hidden d-block">
                         <h6 className="fw-bold mb-0">Location</h6>
                         <Link to="#" className="text-primary">
-                          1054 National Parkway, Schaumburg, IL 60173
+                          951 N Main St, Unit A, Lombard, IL 60148
                         </Link>
                       </div>
                     </div>
@@ -366,3 +366,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
